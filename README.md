@@ -2,7 +2,7 @@
 
 TToDo++ was a group project for my software engineering module CS2103. It accepts natural user input to manage a To Do list with powerful date algorithms and a slick UI.
 
-![ScreenShot](http://www.a-iats.com/App/TA1.png)
+![ScreenShot](http://a-iats.com/App/ToDo.png)
 
 LICENSE
 -------
