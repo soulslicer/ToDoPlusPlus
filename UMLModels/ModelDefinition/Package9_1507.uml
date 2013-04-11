@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="13534804-03d6-438f-a248-215ae756176c"
+  name="FontControl"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="738b057c-dc72-4936-ac71-2ccfa77d05b1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=FontControl"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f2f0783d-e569-4e3e-889b-0cf059af204d"
+        name="CGFontCombo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e4cd9b58-b69e-40e5-aceb-af307a113693"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ToDo++/bin/Debug/ToDo++.exe&quot; Namespace=FontControl Type=CGFontCombo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4494114b-94df-4f45-a37d-670114e344da"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9a95f0a-3df8-439d-a431-237d3a5a0501">
+                <propertyInstance
+                  Id="4b719d96-36ee-4186-a8e2-5cdfc1d7e5a4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb841eb1-008f-4624-891a-12cf7c978d07">
+                <propertyInstance
+                  Id="ef4f0452-4b9a-4eef-a518-ec956f60f03c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8b3e8ed-77f7-4acf-864a-f55faa48f3fd">
+                <propertyInstance
+                  Id="9ff7bc39-2edd-49d7-8c26-5ba420510a0a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e2af7b1-9f12-40ab-9864-8c7396602fec">
+                <propertyInstance
+                  Id="01c8ab45-2a44-4e5f-8dea-902ff3a0f13e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e282239-0de1-46e6-b9fd-68af632de623">
+                <propertyInstance
+                  Id="29bd25dd-e5fe-49d9-a2f8-692b20fe2509"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

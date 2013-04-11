@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0EA9ACC-A4BF-49C9-AE91-52EA6E573CC5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ToDo</RootNamespace>
+    <AssemblyName>ToDo++</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>bin\Debug\ToDo++.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI\Components\HelpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\HelpControl.Designer.cs">
+      <DependentUpon>HelpControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="Operations\OperationMarkAsUndone.cs" />
+    <Compile Include="UI\Components\RoundButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\RoundButton.Designer.cs">
+      <DependentUpon>RoundButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\TinyAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\TinyAlert.Designer.cs">
+      <DependentUpon>TinyAlert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\OperationSchedule.cs" />
+    <Compile Include="Response.cs" />
+    <Compile Include="Tokens\TokenSortType.cs" />
+    <Compile Include="Tokens\TokenTimeRange.cs" />
+    <Compile Include="UI\Components\TreeViewNoFlicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\FontColorSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\FontColorSettings.Designer.cs">
+      <DependentUpon>FontColorSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\CGCategoryAttribute.cs" />
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\CGDescriptionAttribute.cs" />
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\CGResource.cs" />
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\ColorComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\ColorComboBox.designer.cs">
+      <DependentUpon>ColorComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\FontControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\FontDialogToDo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\FontDialogToDo.designer.cs">
+      <DependentUpon>FontDialogToDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\FontDialogBox\SizeComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlobalEventHandlers.cs" />
+    <Compile Include="Operations\Operation.cs" />
+    <Compile Include="Operations\OperationAdd.cs" />
+    <Compile Include="Parsers\OperationGenerator.cs" />
+    <Compile Include="Operations\OperationDelete.cs" />
+    <Compile Include="Operations\OperationDisplayDefault.cs" />
+    <Compile Include="Operations\OperationMarkAsDone.cs" />
+    <Compile Include="Operations\OperationModify.cs" />
+    <Compile Include="Operations\OperationPostpone.cs" />
+    <Compile Include="Operations\OperationRedo.cs" />
+    <Compile Include="Operations\OperationSearch.cs" />
+    <Compile Include="Operations\OperationSort.cs" />
+    <Compile Include="Operations\OperationUndo.cs" />
+    <Compile Include="Parsers\CustomDictionary.cs" />
+    <Compile Include="SerializationExtensions.cs" />
+    <Compile Include="Settings\SettingInformation.cs" />
+    <Compile Include="Tasks\Specificity.cs" />
+    <Compile Include="Tasks\TaskFloating.cs" />
+    <Compile Include="Tasks\TaskDeadline.cs" />
+    <Compile Include="Tasks\TaskEvent.cs" />
+    <Compile Include="Tokens\TokenCommand.cs" />
+    <Compile Include="Tokens\TokenContext.cs" />
+    <Compile Include="Tokens\TokenDate.cs" />
+    <Compile Include="Tokens\TokenDay.cs" />
+    <Compile Include="Tokens\TokenIndexRange.cs" />
+    <Compile Include="Tokens\TokenLiteral.cs" />
+    <Compile Include="Tokens\TokenTime.cs" />
+    <Compile Include="UI\Components\InputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\PreferencesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\PreferencesPanel.Designer.cs">
+      <DependentUpon>PreferencesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\StartingOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\StartingOptions.Designer.cs">
+      <DependentUpon>StartingOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parsers\TokenGenerator.cs" />
+    <Compile Include="UI\Components\CustomPopUps\AlertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\AlertForm.Designer.cs">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parsers\CommandParser.cs" />
+    <Compile Include="UI\Components\CustomPanelControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\FlexiCommandsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\PreferencesControllers\FlexiCommandsControl.Designer.cs">
+      <DependentUpon>FlexiCommandsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic.cs" />
+    <Compile Include="UI\Components\CustomPopUps\UserInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Components\CustomPopUps\UserInputForm.Designer.cs">
+      <DependentUpon>UserInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Settings.cs" />
+    <Compile Include="CustomExceptions.cs" />
+    <Compile Include="Parsers\StringParser.cs" />
+    <Compile Include="Tasks\Task.cs" />
+    <Compile Include="UI\Components\CustomPopUps\CustomMessageBox.cs" />
+    <Compile Include="Tokens\Token.cs" />
+    <Compile Include="UI\Components\OutputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Components\TaskListViewControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Components\TopMenuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\TopMenuControl.Designer.cs">
+      <DependentUpon>TopMenuControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI.Designer.cs">
+      <DependentUpon>UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Storage.cs" />
+    <EmbeddedResource Include="UI\Components\HelpControl.resx">
+      <DependentUpon>HelpControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\RoundButton.resx">
+      <DependentUpon>RoundButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\CustomPopUps\TinyAlert.resx">
+      <DependentUpon>TinyAlert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\PreferencesControllers\FontColorSettings.resx">
+      <DependentUpon>FontColorSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\CustomPopUps\FontDialogBox\CGResource.resx">
+      <DependentUpon>CGResource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\CustomPopUps\FontDialogBox\ColorComboBox.resx">
+      <DependentUpon>ColorComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\CustomPopUps\FontDialogBox\FontDialogToDo.resx">
+      <DependentUpon>FontDialogToDo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\PreferencesControllers\PreferencesPanel.resx">
+      <DependentUpon>PreferencesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\PreferencesControllers\StartingOptions.resx">
+      <DependentUpon>StartingOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\CustomPopUps\AlertForm.resx">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\PreferencesControllers\FlexiCommandsControl.resx">
+      <DependentUpon>FlexiCommandsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\CustomPopUps\UserInputForm.resx">
+      <DependentUpon>UserInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\TaskListViewControl.resx">
+      <DependentUpon>TaskListViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\TopMenuControl.resx">
+      <DependentUpon>TopMenuControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI.resx">
+      <DependentUpon>UI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Resources\completeUserManual.pdf" />
+    <None Include="Resources\user.pdf" />
+    <None Include="Resources\UserGuideToDo.pdf" />
+    <None Include="UI\Components\CustomPopUps\FontDialogBox\App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications.png" />
+    <None Include="Resources\Alert.png" />
+    <None Include="Resources\downButton.png" />
+    <None Include="Resources\bezelL.png" />
+    <None Include="Resources\bezelR.png" />
+    <None Include="Resources\bevelLeft.png" />
+    <None Include="Resources\bevelRight.png" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\logo2.png" />
+    <None Include="Resources\logo3.png" />
+    <None Include="Resources\logo4.png" />
+    <None Include="Resources\helpFrame1.png" />
+    <None Include="Resources\helpFrame2.png" />
+    <None Include="Resources\help0001.png" />
+    <None Include="Resources\help0002.png" />
+    <None Include="Resources\help0003.png" />
+    <None Include="Resources\help0004.png" />
+    <None Include="Resources\help0005.png" />
+    <None Include="Resources\help0006.png" />
+    <None Include="Resources\help0007.png" />
+    <None Include="Resources\help0008.png" />
+    <None Include="Resources\help0009.png" />
+    <None Include="Resources\help0010.png" />
+    <None Include="Resources\help0011.png" />
+    <Content Include="Resources\settings_icon.jpg" />
+    <Content Include="UI\Components\CustomPopUps\FontDialogBox\CGFontCombo.bmp" />
+    <Content Include="Resources\Cover.png" />
+    <Content Include="Resources\Cover1.png" />
+    <Content Include="Resources\CoverPhoto.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\CoverPhotoFinal.png" />
+    <Content Include="Resources\icon.ico" />
+    <None Include="Resources\tempImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
+      <Project>{5B85E2D7-2005-4496-B5D7-59C68A1EC91D}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlatTabControl\FlatTabControl.csproj">
+      <Project>{96002CA1-D295-4ED5-9B08-92346C1BFA18}</Project>
+      <Name>FlatTabControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Grouper\CodeVendor.Controls.csproj">
+      <Project>{D5D88EB0-23B9-46CE-B23C-C6245ECF023C}</Project>
+      <Name>CodeVendor.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotkeyLib\HotkeyLib.csproj">
+      <Project>{09823da8-c587-4363-95f1-cd99f4d0a678}</Project>
+      <Name>HotkeyLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectListView\ObjectListView2010.csproj">
+      <Project>{18feda0c-d147-4286-b39a-01204808106a}</Project>
+      <Name>ObjectListView2010</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TranspControl\TranspControl.csproj">
+      <Project>{984B6860-3AE3-420A-BB8D-BCE5AB333141}</Project>
+      <Name>TranspControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZzzzRangeBar\ZzzzRangeBar.csproj">
+      <Project>{A47E495C-A50B-47E3-9148-D788B4E9C652}</Project>
+      <Name>ZzzzRangeBar</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

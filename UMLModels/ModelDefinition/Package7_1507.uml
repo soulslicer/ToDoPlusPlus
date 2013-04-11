@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c8eaa3f5-9871-4470-993c-8a1db2ab3178"
+  name="Zzzz"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1afac764-5869-414c-9990-bd60faead066"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Zzzz"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="56bbef04-6c86-4704-83e0-025e188a200d"
+        name="ZzzzRangeBar"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0bbec09f-cb46-407f-8d78-992ffbc5ea16"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ZzzzRangeBar/bin/Debug/ZzzzRangeBar.dll&quot; Namespace=Zzzz Type=ZzzzRangeBar"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="da6985c8-203b-41a4-87f0-824429cb032d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd64bd78-ef61-46a2-a71d-6ba8fc6d799f">
+                <propertyInstance
+                  Id="a28144d8-68a0-420a-b32b-14434f97d53c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78c8b609-f223-409e-8944-875c68d4918a">
+                <propertyInstance
+                  Id="c3212bd0-4f37-4ba1-ba29-abb6ba99117a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22dee6b8-31dd-44c7-9e6e-097263c28788">
+                <propertyInstance
+                  Id="1c8e8f63-76df-4b72-b43e-c8ba7ab240c8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e31b468-8c4a-4a5d-8953-282dfc607a0e">
+                <propertyInstance
+                  Id="3fa11330-06a8-4c02-a07d-441f0a26980f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8d5d365-238f-4c9a-9a73-38427866e255">
+                <propertyInstance
+                  Id="3d724432-9dd2-49b7-a339-504bdb6d0596"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="a34405b8-39a7-47a7-b92a-2311454e7a02"
+            isSubstitutable="false">
+            <classMoniker
+              Id="76343699-c4f5-4597-8535-7954bbfa02a7"
+              LastKnownName="UserControl"
+              LastKnownLocation="Package3_1759.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

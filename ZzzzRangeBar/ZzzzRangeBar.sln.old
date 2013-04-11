@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZzzzRangeBar", "ZzzzRangeBar.csproj", "{A47E495C-A50B-47E3-9148-D788B4E9C652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRangeBar", "TestRangeBar\TestRangeBar.csproj", "{E6F7DD2E-4951-414E-9131-95FA1A6586ED}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {D66287C8-395E-4002-A489-CD5290897A56}
+		SccProjectUniqueName1 = TestRangeBar\\TestRangeBar.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = TestRangeBar\\
+		SccProjectUniqueName2 = ZzzzRangeBar.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A47E495C-A50B-47E3-9148-D788B4E9C652}.Debug.ActiveCfg = Debug|.NET
+		{A47E495C-A50B-47E3-9148-D788B4E9C652}.Debug.Build.0 = Debug|.NET
+		{A47E495C-A50B-47E3-9148-D788B4E9C652}.Release.ActiveCfg = Release|.NET
+		{A47E495C-A50B-47E3-9148-D788B4E9C652}.Release.Build.0 = Release|.NET
+		{E6F7DD2E-4951-414E-9131-95FA1A6586ED}.Debug.ActiveCfg = Debug|.NET
+		{E6F7DD2E-4951-414E-9131-95FA1A6586ED}.Debug.Build.0 = Debug|.NET
+		{E6F7DD2E-4951-414E-9131-95FA1A6586ED}.Release.ActiveCfg = Release|.NET
+		{E6F7DD2E-4951-414E-9131-95FA1A6586ED}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7acd8e43-aca1-4818-8121-349c17436f88"
+  name="Controls"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8c56a13d-11ee-4d60-b395-fd7104267a82"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=CodeVendor.Controls"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3dfc3e87-41a8-4dd7-9412-2256c930b329"
+        name="Grouper"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a7caedad-f320-4164-8e3c-f0b734193583"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/TestHarness/bin/Debug/CodeVendor.Controls.dll&quot; Namespace=CodeVendor.Controls Type=Grouper"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="63540a47-46d6-4f9b-9039-f98224958333"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0119b8db-8a63-4193-97e6-afc6ebcb1e00">
+                <propertyInstance
+                  Id="6e06caa2-97b4-41a9-85e9-607af7081c79"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c51aca94-5abe-4f95-a7c4-fb919258f7c0">
+                <propertyInstance
+                  Id="ff5fb55a-3598-4c69-96f0-f4b327687d1a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88bfbfb9-c774-4750-99ed-93eb4d79f70b">
+                <propertyInstance
+                  Id="ab92ae40-b81e-4228-9989-2ab84076075b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4993d012-cca1-49ce-93eb-345e30a1ecfd">
+                <propertyInstance
+                  Id="da3bfdfe-3e12-4a7e-959c-37d3db8903dc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4d850a1-4a11-4808-91d0-9969864359fd">
+                <propertyInstance
+                  Id="d85b8cc5-b27f-4ead-99c8-9ec99c575b6e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="72b337e6-0fc2-4e24-92d8-8e3b99957ce7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="76343699-c4f5-4597-8535-7954bbfa02a7"
+              LastKnownName="UserControl"
+              LastKnownLocation="Package3_1759.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

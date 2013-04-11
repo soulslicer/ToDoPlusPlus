@@ -1,0 +1,1052 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="6565cf38-c6c5-4980-ac49-c61afc9922d4" name="UI receives input" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="5e56e7f5-05c6-4284-8a10-688fdb8ee1b9" name="UI receives input" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="325762bf-497d-4377-bed5-3e4d08ef0a01" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="e405c1f4-3459-4bc1-9f39-852af0afb8bb" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="c5ed1a0f-b88c-4c6b-a309-236f5c81f307" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="19c3abf6-0621-491e-b232-347101ce4feb" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="fa092ce9-1962-4ff6-8618-08c17d74b0e0" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="12a34898-c4ca-4c5d-846f-696c57724bc0" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="a08eb38f-c5e8-48ba-9b2c-5e588e68ac6c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="1a5945c3-c506-4b0e-80e9-f225f4c5c250" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="4b252551-2c79-48f2-8be4-0893f4be35cd" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f3e6734c-e8d3-4b7d-978b-83f5a479f063" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="edc62c79-f3c6-40cc-9d7e-56d02d4029a5" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e65f5cec-f523-49ab-8c44-3ad03bfb9d59" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="c5ed1a0f-b88c-4c6b-a309-236f5c81f307" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3f5f4d42-aa7a-4c88-9a9d-5516093b7c0f" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="7a85ef42-7cc2-4768-bff3-fe8fdd0d1430" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="19c3abf6-0621-491e-b232-347101ce4feb" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="1b3a939f-944d-4ad7-851b-05c83bb23f3a" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="06fabeb9-b785-45d1-9de9-54025e52ca6c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="2667311a-7fa3-4d9b-9449-886c1e6ab6ce" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="66d6fffc-0e67-4de2-9e32-aef21dfe9942" LastKnownName="MessageOccurrenceSpecification" />
+              <interactionUseOccurrenceSpecificationMoniker Id="9519dca5-120c-4d80-ad9b-b7869bf65924" LastKnownName="InteractionUseOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6927a00f-cb54-4fe7-a31d-9f302806dd6d" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="2667311a-7fa3-4d9b-9449-886c1e6ab6ce" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="40b4b7e1-d11f-4e0a-87e1-dd313c151848" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="fa092ce9-1962-4ff6-8618-08c17d74b0e0" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="66d6fffc-0e67-4de2-9e32-aef21dfe9942" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <interactionUse Id="a1563d39-302b-447e-900f-f3986972772c" name="sd ProcessCommand">
+            <coveredLifelines>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </coveredLifelines>
+            <interactionUseOccurrenceSpecifications>
+              <interactionUseOccurrenceSpecificationMoniker Id="9519dca5-120c-4d80-ad9b-b7869bf65924" LastKnownName="InteractionUseOccurrenceSpecification" />
+            </interactionUseOccurrenceSpecifications>
+          </interactionUse>
+          <interactionUseOccurrenceSpecification Id="9519dca5-120c-4d80-ad9b-b7869bf65924" name="InteractionUseOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </interactionUseOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="12a34898-c4ca-4c5d-846f-696c57724bc0" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6927a00f-cb54-4fe7-a31d-9f302806dd6d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="06fabeb9-b785-45d1-9de9-54025e52ca6c" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="43edae45-e1d2-426c-b8aa-5cd40518f154" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="6303b45d-7aa6-4feb-9249-bfa639fcd814" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="b880e012-ab08-45d2-b99c-ec7e55817797" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="2006bf3a-67b6-42c3-98ca-49f8d50d98bc" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="66fbcc85-f69f-4b51-83fa-11b6be9d15b2" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="42cb5404-edab-4c53-96c7-8852b49c9c52" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="5fc2692d-403a-4180-8ddb-9335c50cfb32" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="d24f84f0-dac9-4026-80b7-6e677e856298" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="291f9c19-ec83-46a5-a335-983b6b57b01f" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="fa36a59b-504b-4954-aa07-08c0f05dce2a" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="ff178721-d362-4d19-9424-c1d2839eff45" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="fa327d2f-3ff1-46bf-b3c2-dd280f7eb310" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="d8c447b6-8f00-4b46-aa4b-b96aab4adde8" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="4a18facb-92fc-4d9c-8f09-c8f0b4a68b4d" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="489e56eb-5120-441c-8ab5-f8ab00fc71ad" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="caf674ae-75eb-4439-ab3f-a8f967fdf4bd" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="175a98c4-073c-493e-997a-bca95e3e1c4b" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="760661a7-b75b-455d-b5d4-fd693e3b0930" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="a1a42e8c-095f-4831-aa3f-6fb11cba1656" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="6253c2c3-b655-44c7-ac54-be0236d786f7" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="aa26ddd4-d7e9-41b5-b2b8-69e261f04719" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="224c9b43-57c8-4cdb-8d9f-e6839697c2c5" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b0b679f4-c973-4dc8-abf7-5f01e496ac9c" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="03cb7fe0-24fc-4854-8d9d-a3ef9067cc86" LastKnownName="ExecutionOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e60a2c15-751d-4a6d-8798-54815f16dbd9" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="2006bf3a-67b6-42c3-98ca-49f8d50d98bc" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="92eb5dd1-05f9-48d0-bc4d-d2504688ee23" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="66fbcc85-f69f-4b51-83fa-11b6be9d15b2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a08eb38f-c5e8-48ba-9b2c-5e588e68ac6c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment Id="4e4249ef-0bfe-4816-b96e-6cdd262f78ce" name="CombinedFragment5" interactionOperator="Alt" customInteractionOperator="Switch">
+            <coveredLifelines>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="f1f01b89-c2bf-43c4-9e98-56eec4c2e87b" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+                  <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="57450a4d-ac37-40b9-b652-fb0df9906966" guardText="case SortType.NAME:" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="42cb5404-edab-4c53-96c7-8852b49c9c52" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="fa327d2f-3ff1-46bf-b3c2-dd280f7eb310" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="5b633076-5837-4c7f-8549-f0d38f006a58" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="23cd493f-48ad-44a1-8944-ac60092028c5" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="ef77b783-69f4-4673-88cc-4f14a5315537" name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+                  <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="1f4145d2-147a-40e3-ba98-61130a63529d" guardText="case SortType.DATE_TIME:" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="d8c447b6-8f00-4b46-aa4b-b96aab4adde8" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="a1a42e8c-095f-4831-aa3f-6fb11cba1656" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="9400d8ce-c24a-4043-badc-f62dc57c3131" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="6123be55-4859-4aa7-940b-a9ceecf502cd" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="a697fef4-6565-4694-94be-1b7a11b867be" name="InteractionOperand3">
+                <coveredLifelines>
+                  <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+                  <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="808bc980-e7c9-4ac4-853e-d3f372749f05" guardText="default:" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="6253c2c3-b655-44c7-ac54-be0236d786f7" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="aa26ddd4-d7e9-41b5-b2b8-69e261f04719" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="4d08e9ad-05b8-4130-8c23-a6801ed7767e" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="766460c4-1b26-4edd-b6a0-a4aea6f3244b" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="5b633076-5837-4c7f-8549-f0d38f006a58" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="42cb5404-edab-4c53-96c7-8852b49c9c52" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="2e582ca1-2896-41af-be81-72520a72b156" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="53bea0f9-05fc-4c12-9bdc-22aaac6940bd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="b536969c-d99b-423f-90ba-d2ba041663ab" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="687f7268-12e1-4a0a-b6a1-7b817b7840b0" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="48fb2bb4-b2dd-443e-9504-cd425543d6a9" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="b536969c-d99b-423f-90ba-d2ba041663ab" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="677422ab-c75a-41ad-b684-8d3d5160e891" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5fc2692d-403a-4180-8ddb-9335c50cfb32" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="687f7268-12e1-4a0a-b6a1-7b817b7840b0" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="48fb2bb4-b2dd-443e-9504-cd425543d6a9" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d24f84f0-dac9-4026-80b7-6e677e856298" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="53bea0f9-05fc-4c12-9bdc-22aaac6940bd" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f2e4612c-5d7c-4315-9529-298e09c19d48" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="291f9c19-ec83-46a5-a335-983b6b57b01f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="cce317ff-ec2b-45b3-afc6-e544c45253f8" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="ff178721-d362-4d19-9424-c1d2839eff45" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="fa36a59b-504b-4954-aa07-08c0f05dce2a" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="3546db06-2fd3-41d5-aaa5-cf7257ae5606" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="fa36a59b-504b-4954-aa07-08c0f05dce2a" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f4c2892c-74b6-4e3a-9969-17b4de81ac19" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3546db06-2fd3-41d5-aaa5-cf7257ae5606" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="ff178721-d362-4d19-9424-c1d2839eff45" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="613e37b7-170f-4177-baee-395e4177e3bc" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="23cd493f-48ad-44a1-8944-ac60092028c5" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="fa327d2f-3ff1-46bf-b3c2-dd280f7eb310" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9400d8ce-c24a-4043-badc-f62dc57c3131" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="d8c447b6-8f00-4b46-aa4b-b96aab4adde8" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="245a24b0-9552-4253-bda1-67730f082abd" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="f646c0a0-6273-4e2f-812a-e8620c5004ea" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="a1ff9d12-de4d-4d8b-858e-2c1d59a87a0a" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="49f07c12-dcd5-4f65-beb8-7b1ad7d62418" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="c7e68525-cf5d-4c93-bd4d-276e3e9107ae" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="a1ff9d12-de4d-4d8b-858e-2c1d59a87a0a" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="52fc9177-3f12-438d-90d8-2cb756dd3c7d" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="49f07c12-dcd5-4f65-beb8-7b1ad7d62418" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4a18facb-92fc-4d9c-8f09-c8f0b4a68b4d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c7e68525-cf5d-4c93-bd4d-276e3e9107ae" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="489e56eb-5120-441c-8ab5-f8ab00fc71ad" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="f646c0a0-6273-4e2f-812a-e8620c5004ea" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="891230fe-eea3-4f39-8f1d-77802e24b11f" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="caf674ae-75eb-4439-ab3f-a8f967fdf4bd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="9a698315-3897-441b-a17e-2de0db44a42b" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="760661a7-b75b-455d-b5d4-fd693e3b0930" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="175a98c4-073c-493e-997a-bca95e3e1c4b" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="7ec06cc5-67c1-49aa-8641-376c22d6957a" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="175a98c4-073c-493e-997a-bca95e3e1c4b" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="fe4190a8-daed-4a97-a4ed-c63dd447a31e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="7ec06cc5-67c1-49aa-8641-376c22d6957a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="760661a7-b75b-455d-b5d4-fd693e3b0930" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6adc387e-d4b2-4fc8-afcb-aa6b8801b522" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="6123be55-4859-4aa7-940b-a9ceecf502cd" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="a1a42e8c-095f-4831-aa3f-6fb11cba1656" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="4d08e9ad-05b8-4130-8c23-a6801ed7767e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="6253c2c3-b655-44c7-ac54-be0236d786f7" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="aa26ddd4-d7e9-41b5-b2b8-69e261f04719" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="766460c4-1b26-4edd-b6a0-a4aea6f3244b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4c2cee13-836d-404f-b30f-64a77044bd85" LastKnownName="response.tasksToBeDisplayed : List&lt;Task&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="224c9b43-57c8-4cdb-8d9f-e6839697c2c5" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="a92830b6-403c-4727-9eae-ca04ecc93006" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="03cb7fe0-24fc-4854-8d9d-a3ef9067cc86" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="b0b679f4-c973-4dc8-abf7-5f01e496ac9c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="de25fed0-bfa0-481e-85ca-425bed38154d" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="b0b679f4-c973-4dc8-abf7-5f01e496ac9c" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4c02e310-003a-4b17-944c-8239e0ec6336" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="de25fed0-bfa0-481e-85ca-425bed38154d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="03cb7fe0-24fc-4854-8d9d-a3ef9067cc86" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="8a57ab1b-cee7-4bcf-b357-ac8ffed277af" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1a5945c3-c506-4b0e-80e9-f225f4c5c250" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e60a2c15-751d-4a6d-8798-54815f16dbd9" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="b880e012-ab08-45d2-b99c-ec7e55817797" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ce82cc9f-a69c-46ab-9df7-37a2d1f5538e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" LastKnownName="this.taskListViewControl : TaskListViewControl" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="a9f6b037-2f2b-406a-bef6-c0895b6afac0" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="a0848085-3607-4f5c-aedc-12387b2628c9" LastKnownName="TinyAlertView" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="e46feb68-7aeb-4502-aa8f-079118414ed5" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="6f7d9389-9ed7-41a2-ab6e-914803266eb1" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="1b3c98e5-b897-4e1c-aee3-284f370a5459" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="820210b6-0d2a-4124-864e-918fe4d60d97" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="6f7d9389-9ed7-41a2-ab6e-914803266eb1" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="edfa5ccc-5230-456e-b842-aee50023f273" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a0848085-3607-4f5c-aedc-12387b2628c9" LastKnownName="TinyAlertView" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4b252551-2c79-48f2-8be4-0893f4be35cd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1b3c98e5-b897-4e1c-aee3-284f370a5459" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a0848085-3607-4f5c-aedc-12387b2628c9" LastKnownName="TinyAlertView" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f3e6734c-e8d3-4b7d-978b-83f5a479f063" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="820210b6-0d2a-4124-864e-918fe4d60d97" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a0848085-3607-4f5c-aedc-12387b2628c9" LastKnownName="TinyAlertView" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="e46feb68-7aeb-4502-aa8f-079118414ed5" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="142e0a6b-7384-4c11-810b-e379d2ea5d7d" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a0848085-3607-4f5c-aedc-12387b2628c9" LastKnownName="TinyAlertView" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="4fcc3905-708b-4f11-b498-6ec69e2060f0" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="91bcf437-90ee-4d12-885a-49970f5e30dd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="e79b26f4-5e02-4a4d-a2d6-d2ac2f1e5f11" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="44df83b3-3c4b-4fa2-b7c9-ba3cd22b9ee4" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="aabaed3b-1ac9-4458-be2b-15f1471f6435" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="76cb9fca-206b-40d3-a659-16b4eda5bcf5" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="17d5c6cb-da01-42d1-b978-5ef29c2fc9b8" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="e79b26f4-5e02-4a4d-a2d6-d2ac2f1e5f11" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3a7ed754-3d6f-428d-b793-fbf251d3901b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="edc62c79-f3c6-40cc-9d7e-56d02d4029a5" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="44df83b3-3c4b-4fa2-b7c9-ba3cd22b9ee4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="ac518d5c-a315-4d31-8632-d158b2de4cb9" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="7ccf996d-e99e-43c6-9f38-6367c988cfd8" LastKnownName="Operation" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="1f247820-2afa-4c34-8d56-4e56447cb773" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="6d7b96af-8acb-4fd4-a321-4745ffdaa63b" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="9a44b152-ac2a-4930-b797-b2c95be63cc2" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="84b63ce6-4432-4656-850b-ee62bb25a52e" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="6d7b96af-8acb-4fd4-a321-4745ffdaa63b" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="727224b9-c2c9-4207-bd8e-182c5f1a3092" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="7ccf996d-e99e-43c6-9f38-6367c988cfd8" LastKnownName="Operation" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="aabaed3b-1ac9-4458-be2b-15f1471f6435" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="9a44b152-ac2a-4930-b797-b2c95be63cc2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="7ccf996d-e99e-43c6-9f38-6367c988cfd8" LastKnownName="Operation" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="76cb9fca-206b-40d3-a659-16b4eda5bcf5" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="84b63ce6-4432-4656-850b-ee62bb25a52e" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="7ccf996d-e99e-43c6-9f38-6367c988cfd8" LastKnownName="Operation" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="1f247820-2afa-4c34-8d56-4e56447cb773" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="72eb1151-8323-432a-a51a-023b99e56991" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="7ccf996d-e99e-43c6-9f38-6367c988cfd8" LastKnownName="Operation" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="17d5c6cb-da01-42d1-b978-5ef29c2fc9b8" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e65f5cec-f523-49ab-8c44-3ad03bfb9d59" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="91bcf437-90ee-4d12-885a-49970f5e30dd" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="64bf5120-af32-4e29-a612-c8eb43859b4a" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" LastKnownName="this.logic : Logic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="e405c1f4-3459-4bc1-9f39-852af0afb8bb" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="bbc47c89-a934-48b2-8b26-d3d59d70416e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" LastKnownName="this : UI" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="68e9b15f-fff7-445d-8902-1c1f1b9fd986" name="this : UI" isActor="false" lifelineDisplayName="this : UI" referencedInstance="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=UI ObjectInstance=&quot;Object instance 1&quot;)" referencedType="ToDo‎.UI">
+            <referencesInternal>
+              <reference Id="a66e1ab6-1af1-47ab-9f3b-ce1737ca94aa" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=UI)&quot;)" tag="DGQL" />
+              <reference Id="41d9db65-4c0c-4dd3-9332-bcdb88bc7749" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=UI)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="c5ed1a0f-b88c-4c6b-a309-236f5c81f307" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="e405c1f4-3459-4bc1-9f39-852af0afb8bb" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="9cbc9d23-9a8b-49e9-ae97-9540cb4b5da0" name="this.logic : Logic" isActor="false" lifelineDisplayName="this.logic : Logic" referencedInstance="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=UI Member=logic ObjectInstance=&quot;Object instance 5&quot;)" referencedType="ToDo‎.Logic">
+            <referencesInternal>
+              <reference Id="1de9965e-d304-4e77-bbaf-6c865ee4899a" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Logic)&quot;)" tag="DGQL" />
+              <reference Id="4e568fc7-c919-4bd9-a3e0-93fb38c6075b" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Logic)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="2667311a-7fa3-4d9b-9449-886c1e6ab6ce" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="06fabeb9-b785-45d1-9de9-54025e52ca6c" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="e79b26f4-5e02-4a4d-a2d6-d2ac2f1e5f11" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="91bcf437-90ee-4d12-885a-49970f5e30dd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="12c2145c-ff8a-4cd1-9349-a3eecdc7850a" name="this.taskListViewControl : TaskListViewControl" isActor="false" lifelineDisplayName="this.taskListViewControl : TaskListViewControl" referencedInstance="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=UI Member=taskListViewControl ObjectInstance=&quot;Object instance 310&quot;)" referencedType="ToDo‎.TaskListViewControl">
+            <referencesInternal>
+              <reference Id="0659fe17-1fb7-4e79-84c0-8a0632d7961f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl)&quot;)" tag="DGQL" />
+              <reference Id="a65e0007-75bb-4fec-ad7f-7ab94532795f" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=TaskListViewControl)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="2006bf3a-67b6-42c3-98ca-49f8d50d98bc" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b880e012-ab08-45d2-b99c-ec7e55817797" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="4c2cee13-836d-404f-b30f-64a77044bd85" name="response.tasksToBeDisplayed : List&lt;Task&gt;" isActor="false" lifelineDisplayName="response.tasksToBeDisplayed : List&lt;Task&gt;" referencedInstance="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Response Member=tasksToBeDisplayed ObjectInstance=&quot;Object instance 311&quot;)" referencedType="System‎.Collections‎.Generic‎.List‎&lt;Task‎&gt;">
+            <referencesInternal>
+              <reference Id="26df338b-7e55-4c31-a608-d5da96af946f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.Collections.Generic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1))&quot;)" tag="DGQL" />
+              <reference Id="569a13ef-d50e-48fd-ab6b-9e026ba731f1" handle="(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1))" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="5b633076-5837-4c7f-8549-f0d38f006a58" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b536969c-d99b-423f-90ba-d2ba041663ab" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="53bea0f9-05fc-4c12-9bdc-22aaac6940bd" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="23cd493f-48ad-44a1-8944-ac60092028c5" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="9400d8ce-c24a-4043-badc-f62dc57c3131" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="a1ff9d12-de4d-4d8b-858e-2c1d59a87a0a" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="f646c0a0-6273-4e2f-812a-e8620c5004ea" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="6123be55-4859-4aa7-940b-a9ceecf502cd" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="4d08e9ad-05b8-4130-8c23-a6801ed7767e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="766460c4-1b26-4edd-b6a0-a4aea6f3244b" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="a0848085-3607-4f5c-aedc-12387b2628c9" name="TinyAlertView" isActor="false" lifelineDisplayName="TinyAlertView" referencedType="ToDo‎.TinyAlertView">
+            <referencesInternal>
+              <reference Id="e2d05a93-9ff0-4450-8dde-fea539158e30" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TinyAlertView)&quot;)" tag="DGQL" />
+              <reference Id="347aaa2e-2454-4fea-b772-69900f9b3182" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=TinyAlertView)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="6f7d9389-9ed7-41a2-ab6e-914803266eb1" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="e46feb68-7aeb-4502-aa8f-079118414ed5" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="7ccf996d-e99e-43c6-9f38-6367c988cfd8" name="Operation" isActor="false" lifelineDisplayName="Operation" referencedType="ToDo‎.Operation">
+            <referencesInternal>
+              <reference Id="fef8cb57-7b7c-4d0f-9de2-7bdbbc919491" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Operation)&quot;)" tag="DGQL" />
+              <reference Id="43cff3d2-e77f-4c93-ae0e-9f23153f0858" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Operation)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="6d7b96af-8acb-4fd4-a321-4745ffdaa63b" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="1f247820-2afa-4c34-8d56-4e56447cb773" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="c7934bc9-0956-47ee-a965-59fd9e026d94" name="User Input" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="ed079046-a5b5-41e1-8ca2-2b5733e7e419" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=UI)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=UI Member=ProcessText)&quot;)" tag="DGQL" />
+              <reference Id="2c9c1efd-d8c7-447d-91c5-13e3082d41bc" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=UI Member=ProcessText)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="7a85ef42-7cc2-4768-bff3-fe8fdd0d1430" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="19c3abf6-0621-491e-b232-347101ce4feb" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="fa71ce7f-520c-4809-abb5-0770017aa4aa" name="ProcessCommand" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="logic.ProcessCommand(input)">
+            <referencesInternal>
+              <reference Id="f982e7d6-b7da-4d55-aabc-69f48505c607" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Logic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Logic Member=(Name=ProcessCommand OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="7fc64c50-cb7f-4d0a-95bd-cbbcd1672b01" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Logic Member=(Name=ProcessCommand OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="fa092ce9-1962-4ff6-8618-08c17d74b0e0" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="66d6fffc-0e67-4de2-9e32-aef21dfe9942" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="4b7cca6a-615b-4736-83ef-db8b2d910712" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6927a00f-cb54-4fe7-a31d-9f302806dd6d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="12a34898-c4ca-4c5d-846f-696c57724bc0" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="af7bae1a-9a04-464d-bd29-25b93fa731af" name="UpdateDisplay" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="taskListViewControl.UpdateDisplay(output)">
+            <referencesInternal>
+              <reference Id="205414d2-bfae-4a92-bb80-6bb34d58c4ec" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl Member=(Name=UpdateDisplay OverloadingParameters=[(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Response)]))&quot;)" tag="DGQL" />
+              <reference Id="1c4817f9-376e-436c-9336-43436bbeece5" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=TaskListViewControl Member=(Name=UpdateDisplay OverloadingParameters=[(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Response)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="a08eb38f-c5e8-48ba-9b2c-5e588e68ac6c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="66fbcc85-f69f-4b51-83fa-11b6be9d15b2" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="96a3e2d7-92b9-4b01-ac51-73e893ba89b1" name="Sort" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="displayedTasks.Sort(Task.CompareByName)">
+            <referencesInternal>
+              <reference Id="5ffe98c6-fb0d-43af-932c-7f05c5bae4b4" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.Collections.Generic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1))&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) Member=(Name=Sort OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=(Name=Comparison GenericParameterCount=1 GenericArguments=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) ParameterIdentifier=0)]))]))&quot;)" tag="DGQL" />
+              <reference Id="df97e625-4fdc-4d0f-9d19-b3bfb94cfdc6" handle="(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) Member=(Name=Sort OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=(Name=Comparison GenericParameterCount=1 GenericArguments=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) ParameterIdentifier=0)]))]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="5fc2692d-403a-4180-8ddb-9335c50cfb32" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="687f7268-12e1-4a0a-b6a1-7b817b7840b0" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="1fac2bbe-e4ca-4ab5-ba8c-a8ea6cbb2e23" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="48fb2bb4-b2dd-443e-9504-cd425543d6a9" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d24f84f0-dac9-4026-80b7-6e677e856298" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="fa82770b-0b3c-4646-8a75-26137dcce0ac" name="SetGroupingByName" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="SetGroupingByName()">
+            <referencesInternal>
+              <reference Id="9f6f0ec7-6174-45a1-84fb-ab2bfdecb05f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl Member=SetGroupingByName)&quot;)" tag="DGQL" />
+              <reference Id="aab502cb-0026-4d92-be94-c96e940dd33b" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=TaskListViewControl Member=SetGroupingByName)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="291f9c19-ec83-46a5-a335-983b6b57b01f" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="3546db06-2fd3-41d5-aaa5-cf7257ae5606" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="4b693d9d-98c3-4268-a469-06cb561f7173" name="Sort" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="displayedTasks.Sort(Task.CompareByDateTime)">
+            <referencesInternal>
+              <reference Id="927e4476-a382-41ab-a224-ce7d8b427698" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.Collections.Generic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1))&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) Member=(Name=Sort OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=(Name=Comparison GenericParameterCount=1 GenericArguments=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) ParameterIdentifier=0)]))]))&quot;)" tag="DGQL" />
+              <reference Id="ab7ee6a2-b195-462f-873a-2b43dab0a836" handle="(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) Member=(Name=Sort OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=(Name=Comparison GenericParameterCount=1 GenericArguments=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) ParameterIdentifier=0)]))]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="4a18facb-92fc-4d9c-8f09-c8f0b4a68b4d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="49f07c12-dcd5-4f65-beb8-7b1ad7d62418" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="ebb208e5-d2f6-414f-95ce-f58631eed033" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c7e68525-cf5d-4c93-bd4d-276e3e9107ae" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="489e56eb-5120-441c-8ab5-f8ab00fc71ad" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="de22841b-eae5-43a4-9b84-59d6b3656425" name="SetGroupingByDateTime" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="SetGroupingByDateTime()">
+            <referencesInternal>
+              <reference Id="65da270c-af84-46f0-9c10-633d7cd101f8" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl Member=SetGroupingByDateTime)&quot;)" tag="DGQL" />
+              <reference Id="cb0a161e-8b6c-4e9d-b115-fb6917384e67" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=TaskListViewControl Member=SetGroupingByDateTime)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="caf674ae-75eb-4439-ab3f-a8f967fdf4bd" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="7ec06cc5-67c1-49aa-8641-376c22d6957a" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="3ed85254-b641-4bd0-a9a4-d18467eea4c3" name="GenerateReorderedList" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="GenerateReorderedList()">
+            <referencesInternal>
+              <reference Id="e1a141f7-4a14-414d-a15e-7bb2b8a2397a" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TaskListViewControl Member=GenerateReorderedList)&quot;)" tag="DGQL" />
+              <reference Id="91f33608-8f9b-48de-b030-56538493f8e1" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=TaskListViewControl Member=GenerateReorderedList)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="224c9b43-57c8-4cdb-8d9f-e6839697c2c5" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="de25fed0-bfa0-481e-85ca-425bed38154d" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="a2e2cf46-85e1-4c6c-90ec-6f480eacaaab" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e60a2c15-751d-4a6d-8798-54815f16dbd9" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="1a5945c3-c506-4b0e-80e9-f225f4c5c250" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="ab2ca7f9-f06c-485a-9b66-ffa4641c95fb" name="Show" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="TinyAlertView.Show(alertType, output.FeedbackString)">
+            <referencesInternal>
+              <reference Id="525c2b0d-e973-482c-8bb3-bb8e6a7c72d6" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TinyAlertView)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=TinyAlertView Member=(Name=Show OverloadingParameters=[(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=(Name=StateTinyAlert ParentType=TinyAlertView)),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="5478f1bd-d788-4242-a1e4-492d842b19f6" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=TinyAlertView Member=(Name=Show OverloadingParameters=[(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=(Name=StateTinyAlert ParentType=TinyAlertView)),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="4b252551-2c79-48f2-8be4-0893f4be35cd" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="1b3c98e5-b897-4e1c-aee3-284f370a5459" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="637d70d5-11e3-47cf-b4a8-4508ad106911" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="820210b6-0d2a-4124-864e-918fe4d60d97" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f3e6734c-e8d3-4b7d-978b-83f5a479f063" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="adc54bcf-7b17-4810-8b79-ecd182734edb" name="UpdateLastDisplayedTasksList" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="logic.UpdateLastDisplayedTasksList(displayedList)">
+            <referencesInternal>
+              <reference Id="267483ef-658e-4e7a-8d7a-dcc672e47059" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Logic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Logic Member=(Name=UpdateLastDisplayedTasksList OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Task)]))]))&quot;)" tag="DGQL" />
+              <reference Id="b20f3f34-fc65-406a-b8a2-f1928711aefa" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Logic Member=(Name=UpdateLastDisplayedTasksList OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Task)]))]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="edc62c79-f3c6-40cc-9d7e-56d02d4029a5" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="44df83b3-3c4b-4fa2-b7c9-ba3cd22b9ee4" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="18a47b0d-c52f-41de-8d45-ef3ac1f3ed9d" name="UpdateCurrentListedTasks" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="Operation.UpdateCurrentListedTasks(displayedList)">
+            <referencesInternal>
+              <reference Id="e4c4e109-703d-4d73-96c5-28fdc6750f5a" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ToDo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Operation)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Operation Member=(Name=UpdateCurrentListedTasks OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(Assembly=&amp;quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&amp;quot; Namespace=ToDo Type=Task)]))]))&quot;)" tag="DGQL" />
+              <reference Id="476a2707-7c5c-4751-9555-44e58eecd30e" handle="(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Operation Member=(Name=UpdateCurrentListedTasks OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(Assembly=&quot;$(d0ea9acc-a4bf-49c9-ae91-52ea6e573cc5.OutputPathUri)&quot; Namespace=ToDo Type=Task)]))]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="aabaed3b-1ac9-4458-be2b-15f1471f6435" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="9a44b152-ac2a-4930-b797-b2c95be63cc2" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="089a9e76-4028-48e9-8249-7912dd7f5d5f" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="84b63ce6-4432-4656-850b-ee62bb25a52e" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="76cb9fca-206b-40d3-a659-16b4eda5bcf5" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="d74b1841-d5ec-485b-9428-01d1db028c55" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="17d5c6cb-da01-42d1-b978-5ef29c2fc9b8" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e65f5cec-f523-49ab-8c44-3ad03bfb9d59" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3f5f4d42-aa7a-4c88-9a9d-5516093b7c0f" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="bbc47c89-a934-48b2-8b26-d3d59d70416e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="40b4b7e1-d11f-4e0a-87e1-dd313c151848" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="43edae45-e1d2-426c-b8aa-5cd40518f154" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="92eb5dd1-05f9-48d0-bc4d-d2504688ee23" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ce82cc9f-a69c-46ab-9df7-37a2d1f5538e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="677422ab-c75a-41ad-b684-8d3d5160e891" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f2e4612c-5d7c-4315-9529-298e09c19d48" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f4c2892c-74b6-4e3a-9969-17b4de81ac19" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="613e37b7-170f-4177-baee-395e4177e3bc" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="52fc9177-3f12-438d-90d8-2cb756dd3c7d" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="891230fe-eea3-4f39-8f1d-77802e24b11f" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="fe4190a8-daed-4a97-a4ed-c63dd447a31e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6adc387e-d4b2-4fc8-afcb-aa6b8801b522" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4c02e310-003a-4b17-944c-8239e0ec6336" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="8a57ab1b-cee7-4bcf-b357-ac8ffed277af" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="edfa5ccc-5230-456e-b842-aee50023f273" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="142e0a6b-7384-4c11-810b-e379d2ea5d7d" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3a7ed754-3d6f-428d-b793-fbf251d3901b" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="64bf5120-af32-4e29-a612-c8eb43859b4a" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="727224b9-c2c9-4207-bd8e-182c5f1a3092" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="72eb1151-8323-432a-a51a-023b99e56991" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

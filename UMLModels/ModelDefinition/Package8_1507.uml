@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1e7b7574-237d-42d8-b151-5d5f2c7ce339"
+  name="ColorComboTestApp"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b7081389-6922-4e4a-805f-48aec3a81e45"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=ColorComboTestApp"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a98e62b4-70c3-4822-89f8-51aa91466b15"
+        name="ColorChangeArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="164bc4b3-983f-4a7b-8ca4-0de6a312750e"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ToDo++/bin/Debug/ToDo++.exe&quot; Namespace=ColorComboTestApp Type=ColorChangeArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="124b2680-8c56-41bf-8274-ef660b270c62"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13928cfe-17bc-405d-843e-a1cdf6eff794">
+                <propertyInstance
+                  Id="86d8c261-d1e7-45cb-944f-53d91ea15c34"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5ffa3a19-27ed-4df2-9b3f-c8340fe5aacd">
+                <propertyInstance
+                  Id="0a2f4978-3c82-42cc-a72c-2ffaaa00e3ca"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="328ea696-0ac0-48ca-b347-699db6a68308">
+                <propertyInstance
+                  Id="6d790841-6343-468f-af30-11e297d378eb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="255b63e5-200e-438c-92b2-3f8379ba90ae">
+                <propertyInstance
+                  Id="ca772a31-d32c-42a3-8a7a-e87c7a0427a2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b814fd5-f8a6-4a5b-ada1-153a9baf5092">
+                <propertyInstance
+                  Id="31ab9c94-74c2-4fa5-af48-0ab928c4d04c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="282588c6-8497-49b9-911f-6ea8b612b270"
+            isSubstitutable="false">
+            <classMoniker
+              Id="51048a05-13f8-47f1-8c90-b0005478407a"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package1_1759.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="01d97531-eb68-4726-a62f-e06066c63c84"
+        name="ColorComboBox"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c782ba78-ad02-42e2-b318-438c1b884218"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ToDo++/bin/Debug/ToDo++.exe&quot; Namespace=ColorComboTestApp Type=ColorComboBox"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2bb1d117-8700-4ef0-93d0-28b99145fd95"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b0371cb3-eef8-491f-88c2-a44d6c7afd98">
+                <propertyInstance
+                  Id="450313fb-c13a-44e1-9dc3-08374c83947f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7effdd0c-3ae9-453f-8c9e-e38a66b9a7a8">
+                <propertyInstance
+                  Id="bc7bb5bf-e217-41cf-84ae-c382935857aa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca6767fa-9c85-4ddb-aed4-84e16d440503">
+                <propertyInstance
+                  Id="0dad4e1b-c436-492f-9104-4628836251e0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="957b8764-4bdd-49bf-b029-5d4d660cea20">
+                <propertyInstance
+                  Id="9044407b-a438-4f13-8230-473e7b155d44"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1ab3809-2bb1-422a-886c-a7a379f0553d">
+                <propertyInstance
+                  Id="4dc09691-a9f4-496d-a492-c03e4b92bead"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b766234f-ead6-4e7d-8efa-e75d62ee68c4"
+            isSubstitutable="false">
+            <classMoniker
+              Id="76343699-c4f5-4597-8535-7954bbfa02a7"
+              LastKnownName="UserControl"
+              LastKnownLocation="Package3_1759.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

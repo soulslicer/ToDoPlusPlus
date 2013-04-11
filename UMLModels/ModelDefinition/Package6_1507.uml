@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c300abcd-0b54-468c-b5a4-3f55c3c059f9"
+  name="FlatTabControl"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cb19aad5-244e-4448-9935-315280969529"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=FlatTabControl"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="12e27548-9f59-4ae5-b35e-7af1828e8b2d"
+        name="FlatTabControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="10df6d7c-8b2a-4fac-80c2-71faddca899d"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/FlatTabControl/bin/Debug/FlatTabControl.dll&quot; Namespace=FlatTabControl Type=FlatTabControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eaa73405-ff2f-47da-a1a3-3a84edb258a6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc64f7ba-1116-41ef-b06c-27ecaae688e2">
+                <propertyInstance
+                  Id="74568883-f6ef-4a13-9a64-be9ca90d92f8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c85be86-05ff-4c30-9f9d-6b054274a7f7">
+                <propertyInstance
+                  Id="86ae9e21-4b8d-4353-80e5-533b798b3dc7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="266aab4f-2f40-43ce-be62-fdb140fe96d3">
+                <propertyInstance
+                  Id="ef5f20d9-f195-4678-8eb2-5609ebd25ece"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bcdc2079-992f-47fa-80be-4665750a7833">
+                <propertyInstance
+                  Id="55b7946d-e3e2-4176-9701-adf6748ac5b6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13c79100-856d-414b-b36a-1287b7d1fffe">
+                <propertyInstance
+                  Id="017d29dd-3079-488c-9f89-9bff60b46d9b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="29b0809a-3be3-4576-8392-7ca69665cbaf"
+            isSubstitutable="false">
+            <classMoniker
+              Id="c106a732-121f-4fcc-a163-fbcd0afe5611"
+              LastKnownName="TabControl"
+              LastKnownLocation="Package3_1759.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

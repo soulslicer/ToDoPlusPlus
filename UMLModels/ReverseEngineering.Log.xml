@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2012-11-12T15:14:02" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '2a1389c7-efcf-4c1c-b2e2-d589239e27c0' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System' -  (Package)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections' -  (Package)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic::List&lt;Task‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Type' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo' -  (Package)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response' -  (Class)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::args' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::feedbackAsWarning' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::feedbackString' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::FeedbackString' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::FormatType' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::GetSortTypeString' -  (Operation)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::IsInvalidTask' -  (Operation)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::IsSuccessful' -  (Operation)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::MODIFY_PARAM_NEW_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::MODIFY_PARAM_NUM' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::MODIFY_PARAM_OLD_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::Response' -  (Operation)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::Response::args' -  (Parameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::Response::operationType' -  (Parameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::Response::resultType' -  (Parameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::Response::sortType' -  (Parameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::Response::tasks' -  (Parameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::result' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::Result' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::SEARCH_PARAM_DONE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::SEARCH_PARAM_NUM' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::SEARCH_PARAM_SEARCH_STRING' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::SetFeedbackString' -  (Operation)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::SetFeedbackString::operationType' -  (Parameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::SetFeedbackString::resultType' -  (Parameter)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::sortType' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_ADD_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_ADD_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_CALLED_INVALID_TASK_INDEX' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_DATE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_DELETE_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_DELETE_INVALID_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_DELETE_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_DELETE_SUCCESS_MULTI' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_DISPLAY_NO_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_EXCEPTION_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_INVALID_COMMAND' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASDONE_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASDONE_INVALID_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASDONE_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASDONE_SUCCESS_MULTI' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASUNDONE_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASUNDONE_INVALID_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASUNDONE_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MARKASUNDONE_SUCCESS_MULTI' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MODIFY_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MODIFY_INVALID_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_MODIFY_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_NAME' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_POSTPONE_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_POSTPONE_INVALID_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_POSTPONE_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_POSTPONE_SUCCESS_MULTI' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_REDO_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_REDO_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_SCHEDULE_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_SCHEDULE_INVALID_TASK' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_SCHEDULE_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_SEARCH_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_SEARCH_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_SORT_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_SORT_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_UNDEFINED' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_UNDO_FAILURE' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_UNDO_SUCCESS' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::STRING_XML_READWRITE_FAIL' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::tasksToBeDisplayed' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::TasksToBeDisplayed' -  (Property)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Response::WarnUser' -  (Operation)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Result' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::SortType' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ToDo::Task' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ToDo::Response to ModelingProject::ToDo::SortType (Association)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ToDo::Response to ModelingProject::ToDo::Result (Association)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ToDo::Response to ModelingProject::System::Collections::Generic::List&lt;Task‎&gt; (Association)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ToDo::TaskFloating to ModelingProject::ToDo::Task (Generalization)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ToDo::TaskDeadline to ModelingProject::ToDo::Task (Generalization)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ToDo::TaskEvent to ModelingProject::ToDo::Task (Generalization)" />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="High" Text="(6) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2012-11-12T15:14:03" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

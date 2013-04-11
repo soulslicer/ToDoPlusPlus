@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6722beeb-57f7-47db-af25-41b1086ec7d0"
+  name="BrightIdeasSoftware"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="a2b6db99-b809-4ab8-baab-14ae6cbc3712"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=BrightIdeasSoftware"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4f63975f-4bab-4bee-aeb1-dafe00154854"
+        name="FormatRowEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a0d78aa0-aac0-4867-8ed9-2c693b0ab7da"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ObjectListView/bin/Debug/ObjectListView.dll&quot; Namespace=BrightIdeasSoftware Type=FormatRowEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f6839040-caad-47fc-b4d8-c23066e08eed"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4527c85b-30d9-4f42-a47b-48956101a654">
+                <propertyInstance
+                  Id="9fcf5a3e-2dd8-45a7-965a-3596bd2904f0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="814980b1-bc4a-4ef7-bf10-ed937cf0489a">
+                <propertyInstance
+                  Id="12d58da9-6bfb-40fc-a9b6-76a22fc10def"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dee658c1-6772-4f16-883a-ee35ba8b777e">
+                <propertyInstance
+                  Id="6faea717-bbe9-41f6-a372-58f240d04d2b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d41b8ca2-3f7f-4fe0-84d5-def886e94113">
+                <propertyInstance
+                  Id="f69ddfb1-7927-425c-a681-91ea8c8d41ef"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69040730-33eb-4d3f-b38d-f06ebedf0024">
+                <propertyInstance
+                  Id="d547ab2b-1678-4604-a10d-a5bac5321420"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d90fe18a-d794-4095-a323-d20f216e106b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="51048a05-13f8-47f1-8c90-b0005478407a"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package1_1759.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="64aa8f27-81a2-437b-85d8-87cf1bdaa135"
+        name="BeforeSortingEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fe73b920-b461-404f-9ecc-2772840875b4"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ObjectListView/bin/Debug/ObjectListView.dll&quot; Namespace=BrightIdeasSoftware Type=BeforeSortingEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c69df8ab-b669-4349-80d1-1c3c69eea59a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28bf2882-b578-4846-82a4-3cabe9ea1eb8">
+                <propertyInstance
+                  Id="1121b50d-5c2a-4867-93ce-f7094fcab98c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d88f32ed-a9f8-4e08-b719-47b7274caa22">
+                <propertyInstance
+                  Id="6e7d2656-80be-42dd-a2cd-ef886d1f76a5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5eac47c3-0666-4325-8422-cfffef9df7a7">
+                <propertyInstance
+                  Id="9dc3a79c-e9f9-4dba-b85b-3c771540c5af"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7712a102-f86d-4ae8-be23-da6182be5021">
+                <propertyInstance
+                  Id="9eeb8b51-ade9-4832-b3f0-bd81a13bead4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3406b6b2-ad36-43d2-a61d-501225603d9e">
+                <propertyInstance
+                  Id="47ed1cc1-ffbe-46ca-a658-d274c308d0aa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="83ffb3c8-f831-46dd-9800-bcfcee762a74"
+        name="OLVColumn"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="85833b30-6ea2-4167-890e-ec45f3681c88"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ObjectListView/bin/Debug/ObjectListView.dll&quot; Namespace=BrightIdeasSoftware Type=OLVColumn"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2e4898b5-b1e7-434b-ba35-a0e16250deeb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="46bc67b0-4f05-46fd-bb88-e7153e261cfa">
+                <propertyInstance
+                  Id="12159945-2338-427e-965d-41451ea938da"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eef48c7d-9b05-416f-b0a2-6eef01545473">
+                <propertyInstance
+                  Id="fd05d762-70bf-4e34-a07c-e5d36768e65d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c57ea7a9-0f65-48a8-8a03-2d76492e3ac3">
+                <propertyInstance
+                  Id="3a64991f-d0c8-4597-80a4-bc95b69128cc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36402391-f9e6-44c6-b149-83fcb763e795">
+                <propertyInstance
+                  Id="d172ec57-3c23-4333-b6cc-68fdd6189252"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94dabfed-9532-4e22-9fec-78a8d9fbeca6">
+                <propertyInstance
+                  Id="fc0a3481-1ae1-465d-b54e-91794844092d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d9dfa96b-6d88-420a-8884-1ffe73a9620c"
+        name="ObjectListView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0f5adf3c-7482-46c1-9a2b-d6b891070c68"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/RavenXce/Documents/Visual Studio 2012/Projects/ToDo++/ObjectListView/bin/Debug/ObjectListView.dll&quot; Namespace=BrightIdeasSoftware Type=ObjectListView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ad1e2193-8be9-4afa-b1c9-0bba99789fdc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f19fd248-7fcf-4cf4-a01c-768035d72818">
+                <propertyInstance
+                  Id="4690eca3-53e0-4722-a272-3a88081ec90a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09e4b65e-2292-4e86-8561-3880e7dbd3f8">
+                <propertyInstance
+                  Id="0fbbfe10-9a3b-43c1-9908-cc2b276040d5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2b74fb5-a911-4229-b64a-72699a81537f">
+                <propertyInstance
+                  Id="66a0b732-da5d-4232-a98a-d211cbad6541"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af0a978e-0b38-4fb4-81c3-243f2a42e944">
+                <propertyInstance
+                  Id="3e621948-275c-4fc5-817b-4a976e20dc1c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8180bb86-9615-4404-8899-b721c10df88f">
+                <propertyInstance
+                  Id="09353f0f-534d-4e5e-8858-46ac40c386c9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
